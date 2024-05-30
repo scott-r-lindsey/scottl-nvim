@@ -1,0 +1,19 @@
+.DS_Store
+.old
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+dev-keys/*pem
+
+# VIM
+*.swp
+*.swo
+*~
+
+.idea/
+.env
+
+autoload/*
+local_config/*
