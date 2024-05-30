@@ -6,7 +6,7 @@ if empty(glob('~/.config/nvim/autoload/plug.vim'))
 endif
 
 " install plugins
-call plug#begin()
+call plug#begin('~/.config/nvim/plugged')
 
 " file navigation
 Plug 'preservim/nerdtree', { 'on': 'NERDTreeToggle' }
